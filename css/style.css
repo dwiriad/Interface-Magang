@@ -57,6 +57,9 @@ TABLE OF CONTENTS:
 /*----------------------------------
 1 - Reset
 ----------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -139,7 +142,7 @@ input[type=password],
 input[type=email],
 input[type=submit],
 input[type=text] {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 a:focus {
 	text-decoration: none;
@@ -152,7 +155,7 @@ input:focus {
 }
 body {
 	font-size: 15px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	-webkit-text-size-adjust: 100%;
 	color: #373d54;
 }
@@ -388,7 +391,7 @@ body {
 	display: block;
 	line-height: 1;
 	margin: -8px 0 0;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 }
 .topmenu .topcatalog:after {
 	position: absolute;
@@ -532,7 +535,7 @@ body {
 	display: block;
 	line-height: 1;
 	margin: -8px 0 0;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 }
 .topmenu .mainmenu {
 	border-top: 1px solid #e0e4f6;
@@ -571,7 +574,7 @@ body {
 }
 .topmenu .mainmenu > li.menu-item-has-children > a:after {
     position: absolute;
-    font-family: FontAwesome;
+    font-family: 'Poppins', sans-serif;
     content: '\f107';
     display: block;
     top: 50%;
@@ -651,7 +654,7 @@ body {
 }
 .topmenu .mainmenu > li > .sub-menu li.menu-item-has-children > a:after {
     position: absolute;
-    font-family: FontAwesome;
+    font-family: 'Poppins', sans-serif;
     content: '\f105';
     display: block;
     top: 50%;
@@ -1072,7 +1075,7 @@ body {
 	background-color: #e8e8e8;
 	padding: 2px 4px;
 	color: #373d54;
-	font-family: Inconsolata, monospace;
+	font-family: 'Poppins', sans-serif;
 }
 .stylization pre {
 	background: #f8fafc;
@@ -1086,7 +1089,7 @@ body {
 	white-space: pre;
 	white-space: pre-wrap;
 	word-wrap: break-word;
-	font-family: Inconsolata, monospace;
+	font-family: 'Poppins', sans-serif;
 	color: #373d54;
 }
 .stylization mark,
@@ -1376,7 +1379,7 @@ ul.b-crumbs {
 	position: absolute;
 	content: "\f105";
 	font-size: 12px;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	color: #373d54;
 	display: block;
 	left: auto;
@@ -1520,7 +1523,7 @@ ul.b-crumbs {
 	font-weight: 700;
 	margin: 0 0 23px;
 	line-height: 1.2;
-	font-family: 'PT Serif', serif;
+	font-family: 'Poppins', sans-serif;
 }
 .fr-slider .slides .fr-slider-cont p {
 	padding: 0 0 0;
@@ -1699,7 +1702,7 @@ ul.b-crumbs {
 	font-size: 26px;
 	text-indent: initial;
 	color: #373d54;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	transition: all 0.3s;
 	text-shadow: none;
 }
@@ -2393,7 +2396,7 @@ ul.b-crumbs {
 	position: absolute;
 	content: '\f00c';
 	display: block;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	font-size: 8px;
 	color: #fff;
 	margin: 4px 0 0 4px;
@@ -2451,7 +2454,7 @@ ul.b-crumbs {
 	-moz-transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
 	transform: translate(0,-50%);
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 }
 .prod-items .prod-i .offer-props-select.opened p:after {
 	content: "\f106";
@@ -3095,7 +3098,7 @@ ul.b-crumbs {
 	position: absolute;
 	content: '\f00c';
 	display: block;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	font-size: 8px;
 	color: #fff;
 	margin: 4px 0 0 4px;
@@ -3147,7 +3150,7 @@ ul.b-crumbs {
 	-moz-transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
 	transform: translate(0,-50%);
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 }
 .prod-items .prodlist-i .offer-props-select.opened p:after {
 	content: "\f106";
@@ -3989,7 +3992,7 @@ ul.b-crumbs {
 	font-size: 8px;
 	padding: 0 0 0 1px;
 	text-align: center;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	line-height: 10px;
 }
 .section-filter-item .section-filter-field .section-filter-radio:after {
@@ -4034,7 +4037,7 @@ ul.b-crumbs {
 	position: absolute;
 	content: '\f00c';
 	display: block;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	font-size: 8px;
 	color: #fff;
 	margin: 4px 0 0 4px;
@@ -4211,7 +4214,7 @@ ul.b-crumbs {
 	-moz-transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
 	transform: translate(0,-50%);
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 }
 .section-cont .section-count:hover p:after,
 .section-cont .section-sortby:hover p:after {
@@ -4672,7 +4675,7 @@ ul.b-crumbs {
 	font-size: 15px;
 	margin: -12px 0 0;
 	color: #fff;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 }
 .prod-cont .prod-addwrap {
 	padding: 0;
@@ -4899,7 +4902,7 @@ ul.b-crumbs {
 	position: absolute;
 	content: '\f00c';
 	display: block;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	font-size: 8px;
 	color: #fff;
 	margin: 4px 0 0 4px;
@@ -4963,7 +4966,7 @@ ul.b-crumbs {
 	-moz-transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
 	transform: translate(0,-50%);
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 }
 .prod-cont .offer-props-select.opened p:after {
 	content: "\f106";
@@ -5744,7 +5747,7 @@ ul.b-crumbs {
 	-moz-transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
 	transform: translate(0,-50%);
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 }
 .prod-related .offer-props-select.opened p:after {
 	content: "\f106";
@@ -6181,7 +6184,7 @@ Blog V2
 	display: block;
 	font-size: 26px;
 	line-height: 1;
-	font-family: 'PT Serif', Roboto, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	margin: 0 0 1px;
 }
@@ -6193,7 +6196,7 @@ Blog V2
 	color: #616161;
 }
 .posts2-i .posts-i-ttl {
-	font-family: 'PT Serif', Roboto, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 19px;
 	font-weight: 700;
 	margin: 0 0 10px;
@@ -6226,7 +6229,7 @@ Blog V2
 	margin: 0 0 5px;
 	transition: color 0.2s;
 	font-weight: 700;
-	font-family: 'PT Serif', Roboto, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	border: none;
 	color: #3a89cf;
 }
@@ -6292,7 +6295,7 @@ Blog V2
 	font-size: 26px;
 	text-indent: initial;
 	color: #373d54;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	transition: all 0.3s ease-in-out;
 	text-shadow: none;
 }
@@ -6973,7 +6976,7 @@ body .cart-total .cart-summ b {
 	display: block;
 	font-size: 28px;
 	line-height: 1;
-	font-family: 'PT Serif', Roboto, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	margin: 0 0 1px;
 }
@@ -6993,8 +6996,7 @@ body .cart-total .cart-summ b {
 	bottom: 20px;
 }
 .posts-i .posts-i-ttl {
-	font-family: 'PT Serif', Roboto, sans-serif;
-	font-size: 19px;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	margin: 0;
 	line-height: 1.2;
@@ -7095,8 +7097,7 @@ body .cart-total .cart-summ b {
 	font-size: 26px;
 	text-indent: initial;
 	color: #373d54;
-	font-family: FontAwesome;
-	transition: all 0.3s ease-in-out;
+	font-family: 'Poppins', sans-serif;
 	text-shadow: none;
 }
 .post-wrap .flex-direction-nav a.flex-next:before {
@@ -7134,7 +7135,7 @@ body .cart-total .cart-summ b {
 	max-width: 800px;
 }
 .reviewscar .swiper-slide {
-	font-family: 'PT Serif', Roboto, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	font-style: italic;
 	text-align: center;
@@ -7161,7 +7162,7 @@ body .cart-total .cart-summ b {
 }
 .reviewscar .reviewscar-ttl {
 	font-style: normal;
-	font-family: Roboto, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -7198,7 +7199,7 @@ body .cart-total .cart-summ b {
 }
 .reviewscar-thumbs .reviewscar-ttl {
 	font-style: normal;
-	font-family: Roboto, sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -7308,7 +7309,7 @@ body .cart-total .cart-summ b {
 	text-align: center;
 	display: block;
 	color: #373d54;
-	font-family: 'PT Serif', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-style: italic;
 }
 .reviews-i .reviews-i-cont .reviews-i-rating {
@@ -7351,7 +7352,7 @@ body .cart-total .cart-summ b {
 	border-color: #3a89cf;
 }
 .reviews-i .reviews-i-ttl {
-	font-family: 'PT Serif', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 15px;
 	font-style: italic;
 	font-weight: 700;
@@ -7612,7 +7613,7 @@ body .component-ttl-ct span:after {
 body .component-desc {
 	margin: 0 0 45px;
 	font-size: 15px;
-	font-family: 'PT Serif';
+	font-family: 'Poppins', sans-serif;
 	font-style: italic;
 	letter-spacing: 0.05em;
 }
@@ -8173,7 +8174,7 @@ body .component-desc.component-desc-ct {
 }
 .banners-list .banner-i.style_11 .banner-i-link a:after {
 	content: '\f105';
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	display: inline-block;
 	vertical-align: middle;
 	line-height: 1;
@@ -8605,7 +8606,7 @@ body .component-desc.component-desc-ct {
 	height: 42px;
 	position: relative;
 	font-weight: 700;
-	font-family: 'PT Serif', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 .facts-i:hover .facts-i-num {
 	color: #3a89cf;
@@ -8640,7 +8641,7 @@ body .component-desc.component-desc-ct {
 .facts-i .facts-i-percent .progressbar-text {
 	color: #373d54 !important;
 	font-size: 30px;
-	font-family: 'PT Serif', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 }
 .facts-i .facts-i-percent .progressbar-text span {
@@ -8934,7 +8935,7 @@ This file is generated by `grunt build`, do not edit it by hand.
 	right: 50%;
 	margin: -9px -1px 0 0;
 	display: block;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	content: '\f107';
 	font-size: 14px;
 }
@@ -8956,7 +8957,7 @@ This file is generated by `grunt build`, do not edit it by hand.
 	right: 0;
 	margin: -10px 10px 0 0;
 	display: block;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	color: #8890af;
 	content: '\f002';
 	font-size: 12px;
@@ -9094,12 +9095,12 @@ This file is generated by `grunt build`, do not edit it by hand.
 	height: 12px;
 	color: #8890af;
 	content: '\f00d;';
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 }
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:after {
 	font-size: 11px;
 	content: '\f00d';
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 }
 .chosen-container-multi .chosen-choices li.search-choice .search-choice-close:hover {
 	color: #313b54;
@@ -9487,8 +9488,7 @@ This file is generated by `grunt build`, do not edit it by hand.
 .f-subscribe-form input[type=text] {
 	border: 1px solid #e0e4f6;
 	color: #373d54;
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
 	margin-top: 0;
 	outline: none;
 	padding: 7px 50px 7px 12px;
@@ -9577,7 +9577,7 @@ This file is generated by `grunt build`, do not edit it by hand.
 .err404 .err404-ttl {
 	text-align: center;
 	font-size: 170px;
-	font-family: 'PT Serif', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 700;
 	letter-spacing: 5px;
 	line-height: 1;
@@ -9585,8 +9585,7 @@ This file is generated by `grunt build`, do not edit it by hand.
 .err404 .err404-subttl {
 	text-align: center;
 	font-size: 45px;
-	font-family: 'PT Serif', sans-serif;
-	margin: 0 0 40px;
+	font-family: 'Poppins', sans-serif;
 }
 .err404 .err404-search {
 	position: relative;
@@ -9595,7 +9594,7 @@ This file is generated by `grunt build`, do not edit it by hand.
 .err404 .err404-search input[type=text] {
 	border: 1px solid #e0e4f6;
 	color: #373d54;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
 	margin-top: 0;
 	outline: none;
@@ -10023,7 +10022,7 @@ This file is generated by `grunt build`, do not edit it by hand.
 	font-size: 8px;
 	padding: 0 0 0 1px;
 	text-align: center;
-	font-family: FontAwesome;
+	font-family: 'Poppins', sans-serif;
 	line-height: 10px;
 }
 .auth-wrap .auth-submit input[type=checkbox]:checked + label:after {

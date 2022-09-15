@@ -1383,7 +1383,7 @@ ul.b-crumbs {
 	position: absolute;
 	content: "\f105";
 	font-size: 12px;
-	font-family: 'Poppins', sans-serif;
+	font-family: FontAwesome;
 	color: #053742;
 	display: block;
 	left: auto;
@@ -1706,7 +1706,7 @@ ul.b-crumbs {
 	font-size: 26px;
 	text-indent: initial;
 	color: #053742;
-	font-family: 'Poppins', sans-serif;
+	font-family: FontAwesome;
 	transition: all 0.3s;
 	text-shadow: none;
 }
@@ -2400,7 +2400,7 @@ ul.b-crumbs {
 	position: absolute;
 	content: '\f00c';
 	display: block;
-	font-family: 'Poppins', sans-serif;
+	font-family: FontAwesome;
 	font-size: 8px;
 	color: #fff;
 	margin: 4px 0 0 4px;
@@ -2458,7 +2458,7 @@ ul.b-crumbs {
 	-moz-transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
 	transform: translate(0,-50%);
-	font-family: 'Poppins', sans-serif;
+	font-family: 'FontAwesome;
 }
 .prod-items .prod-i .offer-props-select.opened p:after {
 	content: "\f106";
@@ -3102,7 +3102,7 @@ ul.b-crumbs {
 	position: absolute;
 	content: '\f00c';
 	display: block;
-	font-family: 'Poppins', sans-serif;
+	font-family: FontAwesome;
 	font-size: 8px;
 	color: #fff;
 	margin: 4px 0 0 4px;
@@ -3154,7 +3154,7 @@ ul.b-crumbs {
 	-moz-transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
 	transform: translate(0,-50%);
-	font-family: 'Poppins', sans-serif;
+	font-family: FontAwesome;
 }
 .prod-items .prodlist-i .offer-props-select.opened p:after {
 	content: "\f106";
@@ -3996,7 +3996,7 @@ ul.b-crumbs {
 	font-size: 8px;
 	padding: 0 0 0 1px;
 	text-align: center;
-	font-family: 'Poppins', sans-serif;
+	font-family: FontAwesome;
 	line-height: 10px;
 }
 .section-filter-item .section-filter-field .section-filter-radio:after {
@@ -4041,7 +4041,7 @@ ul.b-crumbs {
 	position: absolute;
 	content: '\f00c';
 	display: block;
-	font-family: 'Poppins', sans-serif;
+	font-family: FontAwesome;
 	font-size: 8px;
 	color: #fff;
 	margin: 4px 0 0 4px;
@@ -4218,7 +4218,7 @@ ul.b-crumbs {
 	-moz-transform: translate(0,-50%);
 	-webkit-transform: translate(0,-50%);
 	transform: translate(0,-50%);
-	font-family: 'Poppins', sans-serif;
+	font-family: FontAwesome;
 }
 .section-cont .section-count:hover p:after,
 .section-cont .section-sortby:hover p:after {

@@ -1872,9 +1872,9 @@ ul.b-crumbs {
 	width: 3px;
 	display: none;
 }
-.fr-pop-tabs li.fr-pop-tabs-more .fr-pop-tabs-sub li:hover:after {
+/* .fr-pop-tabs li.fr-pop-tabs-more .fr-pop-tabs-sub li:hover:after {
 	display: block;
-}
+} */
 /* fr-pop-tab more */
 /*----------------------------------
 8 - Popular Products

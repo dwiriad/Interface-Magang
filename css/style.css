@@ -108,8 +108,6 @@ table {
 	border-spacing: 0;
 }
 
-
-
 body * {
 	line-height: 140%;
 	box-sizing: border-box;
@@ -184,6 +182,27 @@ body {
 .header {
 	margin: 0 0 27px;
 }
+/* new */
+.navBar { 
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    background-color: white;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+    transition: all 80ms ease-out;
+    z-index: 999;
+}
+.navBar.scrolled {
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 12);
+  }
+  
+
 .header:after {
 	display: block;
 	clear: both;
@@ -357,6 +376,7 @@ body {
 3 - Topmenu
 ----------------------------------*/
 .topmenu {
+	margin-top: 130px;
 	position: relative;
 	padding: 0 41px 0 203px;
 	font-size: 14px;

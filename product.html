@@ -28,34 +28,35 @@
 <!-- Header - start -->
 <header class="header">
 	<!-- Logo, Shop-menu - start -->
-	<div class="header-middle">
-		<div class="container header-middle-cont">
-			<div class="toplogo">
-				<a href="index.html">
-					<img src="img/S-care logo-01.png" alt="Semarang Care">
-				</a>
-			</div>
-			<div class="shop-menu">
-				<ul>
-
-					<li>
-                        <a href="compare.html">
-                            <img src="img/Button Jual-03.png" style="width: 110px; height: 56px;" alt="Semarang Care">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="cart.html">
-                            <img src="img/ikon keranjang-01.png" style="width: 57px; height: 54px;" alt="Semarang Care">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="auth.html">
-                            <img src="img/ikon user-02.png" style="width: 57px; height: 54px;" alt="Semarang Care">
-                        </a>
-                    </li>
-				</div>
-			</div>
-		</div>
+	<nav class="navBar">
+        <div class="header-middle">
+            <div class="container header-middle-cont">
+                <div class="toplogo">
+                    <a href="index.html">
+                        <img src="img/S-care logo-01.png" alt="AllStore - MultiConcept eCommerce Template">
+                    </a>
+                </div>
+                <div class="shop-menu">
+                    <ul>
+                        <li>
+                            <a href="compare.html">
+                                <img src="img/Button Jual-03.png" style="width: 110px; height: 56px;" alt="AllStore - MultiConcept eCommerce Template">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="cart.html">
+                                <img src="img/ikon keranjang-01.png" style="width: 57px; height: 54px;" alt="AllStore - MultiConcept eCommerce Template">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="auth.html">
+                                <img src="img/ikon user-02.png" style="width: 57px; height: 54px;" alt="AllStore - MultiConcept eCommerce Template">
+                            </a>
+                        </li>
+                </div>
+            </div>
+        </div>
+    </nav>
 	<!-- Logo, Shop-menu - end -->
 
 	<!-- Topmenu - start -->
@@ -767,6 +768,17 @@
 </footer>
 <!-- Footer - end -->
 
+<!-- new script -->
+<script>
+    var navBar = document.getElementById("navBar");
+    window.onscroll = function() {
+      if (window.scrollY > 22) {
+        navBar.classList.add("scrolled");
+      } else {
+        navBar.classList.remove("scrolled");
+      }
+    };
+  </script>
 
 
 <!-- jQuery plugins/scripts - start -->
